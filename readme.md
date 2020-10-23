@@ -9,7 +9,11 @@
 
 ## About Laravel
 
+<<<<<<< HEAD
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as:
+=======
+Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+>>>>>>> de3204931ee641f075c073efa746b59452c65031
 
 - [Simple, fast routing engine](https://laravel.com/docs/routing).
 - [Powerful dependency injection container](https://laravel.com/docs/container).
@@ -19,6 +23,7 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
 - [Robust background job processing](https://laravel.com/docs/queues).
 - [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
 
+<<<<<<< HEAD
 Laravel is accessible, yet powerful, providing tools needed for large, robust applications.
 
 ## Learning Laravel
@@ -30,13 +35,35 @@ If you're not in the mood to read, [Laracasts](https://laracasts.com) contains o
 ## Laravel Sponsors
 
 We would like to extend our thanks to the following sponsors for helping fund on-going Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell):
+=======
+Laravel is accessible, powerful, and provides tools required for large, robust applications.
+
+## Learning Laravel
+
+Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+
+If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1100 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost you and your team's skills by digging into our comprehensive video library.
+
+## Laravel Sponsors
+
+We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+>>>>>>> de3204931ee641f075c073efa746b59452c65031
 
 - **[Vehikl](https://vehikl.com/)**
 - **[Tighten Co.](https://tighten.co)**
 - **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
+<<<<<<< HEAD
 - **[Cubet Techno Labs](https://cubettech.com)**
 - **[British Software Development](https://www.britishsoftware.co)**
 - **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
+=======
+- **[64 Robots](https://64robots.com)**
+- **[Cubet Techno Labs](https://cubettech.com)**
+- **[Cyber-Duck](https://cyber-duck.co.uk)**
+- **[British Software Development](https://www.britishsoftware.co)**
+- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
+- **[DevSquad](https://devsquad.com)**
+>>>>>>> de3204931ee641f075c073efa746b59452c65031
 - [UserInsights](https://userinsights.com)
 - [Fragrantica](https://www.fragrantica.com)
 - [SOFTonSOFA](https://softonsofa.com/)
@@ -51,6 +78,12 @@ We would like to extend our thanks to the following sponsors for helping fund on
 - [iMi digital](https://www.imi-digital.de/)
 - [Earthlink](https://www.earthlink.ro/)
 - [Steadfast Collective](https://steadfastcollective.com/)
+<<<<<<< HEAD
+=======
+- [We Are The Robots Inc.](https://watr.mx/)
+- [Understand.io](https://www.understand.io/)
+- [Abdel Elrafa](https://abdelelrafa.com)
+>>>>>>> de3204931ee641f075c073efa746b59452c65031
 
 ## Contributing
 
@@ -62,4 +95,8 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 
 ## License
 
+<<<<<<< HEAD
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+=======
+The Laravel framework is open-source software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+>>>>>>> de3204931ee641f075c073efa746b59452c65031

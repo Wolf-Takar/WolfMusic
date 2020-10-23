@@ -1,5 +1,10 @@
 <?php
 
+<<<<<<< HEAD
+=======
+use Illuminate\Support\Str;
+
+>>>>>>> de3204931ee641f075c073efa746b59452c65031
 return [
 
     /*
@@ -57,7 +62,11 @@ return [
                 env('MEMCACHED_PASSWORD'),
             ],
             'options' => [
+<<<<<<< HEAD
                 // Memcached::OPT_CONNECT_TIMEOUT  => 2000,
+=======
+                // Memcached::OPT_CONNECT_TIMEOUT => 2000,
+>>>>>>> de3204931ee641f075c073efa746b59452c65031
             ],
             'servers' => [
                 [
@@ -70,7 +79,11 @@ return [
 
         'redis' => [
             'driver' => 'redis',
+<<<<<<< HEAD
             'connection' => 'default',
+=======
+            'connection' => 'cache',
+>>>>>>> de3204931ee641f075c073efa746b59452c65031
         ],
 
     ],
@@ -86,9 +99,13 @@ return [
     |
     */
 
+<<<<<<< HEAD
     'prefix' => env(
         'CACHE_PREFIX',
         str_slug(env('APP_NAME', 'laravel'), '_').'_cache'
     ),
+=======
+    'prefix' => env('CACHE_PREFIX', Str::slug(env('APP_NAME', 'laravel'), '_').'_cache'),
+>>>>>>> de3204931ee641f075c073efa746b59452c65031
 
 ];
