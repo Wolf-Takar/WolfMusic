@@ -1,0 +1,34 @@
+/*Generales*/
+
+/*Head*/
+
+/*Caja*/
+.UserStatus{
+    display: flex;
+   
+}
+
+/*Titulos*/
+.FormHead{
+    justify-content: space-between;
+    margin-right: 20px;
+    color:#4f4f4f;
+
+}
+
+/*Seleccionado*/
+.Activate{
+    border-bottom: 3px solid #348a7d;
+    padding-bottom:3px;
+    padding-right: 7px;
+    padding-left: 7px;
+    color:black;
+}
+
+/*Form*/
+.Form{
+    margin-top: 10px;
+
+}
+/*Input*/
+
