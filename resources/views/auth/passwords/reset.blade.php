@@ -8,7 +8,11 @@
                 <div class="card-header">{{ __('Reset Password') }}</div>
 
                 <div class="card-body">
+<<<<<<< HEAD
                     <form method="POST" action="{{ route('password.update') }}">
+=======
+                    <form method="POST" action="{{ route('password.request') }}" aria-label="{{ __('Reset Password') }}">
+>>>>>>> 84e22bb6b08e9e5d81ff9cb4462fd2a79a6b0e2a
                         @csrf
 
                         <input type="hidden" name="token" value="{{ $token }}">

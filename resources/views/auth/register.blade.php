@@ -8,7 +8,11 @@
                 <div class="card-header">{{ __('Register') }}</div>
 
                 <div class="card-body">
+<<<<<<< HEAD
                     <form method="POST" action="{{ route('register') }}">
+=======
+                    <form method="POST" action="{{ route('register') }}" aria-label="{{ __('Register') }}">
+>>>>>>> 84e22bb6b08e9e5d81ff9cb4462fd2a79a6b0e2a
                         @csrf
 
                         <div class="form-group row">

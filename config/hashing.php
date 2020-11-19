@@ -11,7 +11,11 @@ return [
     | passwords for your application. By default, the bcrypt algorithm is
     | used; however, you remain free to modify this option if you wish.
     |
+<<<<<<< HEAD
+    | Supported: "bcrypt", "argon"
+=======
     | Supported: "bcrypt", "argon", "argon2id"
+>>>>>>> de3204931ee641f075c073efa746b59452c65031
     |
     */
 

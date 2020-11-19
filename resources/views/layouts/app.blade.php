@@ -2,18 +2,30 @@
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <head>
     <meta charset="utf-8">
+<<<<<<< HEAD
+=======
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+>>>>>>> 84e22bb6b08e9e5d81ff9cb4462fd2a79a6b0e2a
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
+<<<<<<< HEAD
     <title>{{ config('app.name', 'Laravel') }}</title>
+=======
+    <title>{{ config('app.name', 'laravel') }}</title>
+>>>>>>> 84e22bb6b08e9e5d81ff9cb4462fd2a79a6b0e2a
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
 
     <!-- Fonts -->
+<<<<<<< HEAD
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
+=======
+    <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+>>>>>>> 84e22bb6b08e9e5d81ff9cb4462fd2a79a6b0e2a
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet" type="text/css">
 
     <!-- Styles -->
@@ -24,7 +36,11 @@
         <nav class="navbar navbar-expand-md navbar-light navbar-laravel">
             <div class="container">
                 <a class="navbar-brand" href="{{ url('/') }}">
+<<<<<<< HEAD
                     {{ config('app.name', 'Laravel') }}
+=======
+                    {{ config('app.name', 'laravel') }}
+>>>>>>> 84e22bb6b08e9e5d81ff9cb4462fd2a79a6b0e2a
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                     <span class="navbar-toggler-icon"></span>
@@ -43,11 +59,17 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
                             </li>
+<<<<<<< HEAD
                             @if (Route::has('register'))
                                 <li class="nav-item">
                                     <a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a>
                                 </li>
                             @endif
+=======
+                            <li class="nav-item">
+                                <a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a>
+                            </li>
+>>>>>>> 84e22bb6b08e9e5d81ff9cb4462fd2a79a6b0e2a
                         @else
                             <li class="nav-item dropdown">
                                 <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>

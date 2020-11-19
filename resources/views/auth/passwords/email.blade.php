@@ -14,7 +14,11 @@
                         </div>
                     @endif
 
+<<<<<<< HEAD
                     <form method="POST" action="{{ route('password.email') }}">
+=======
+                    <form method="POST" action="{{ route('password.email') }}" aria-label="{{ __('Reset Password') }}">
+>>>>>>> 84e22bb6b08e9e5d81ff9cb4462fd2a79a6b0e2a
                         @csrf
 
                         <div class="form-group row">

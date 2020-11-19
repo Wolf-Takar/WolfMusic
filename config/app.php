@@ -22,7 +22,11 @@ return [
     |
     | This value determines the "environment" your application is currently
     | running in. This may determine how you prefer to configure various
+<<<<<<< HEAD
+    | services your application utilizes. Set this in your ".env" file.
+=======
     | services the application utilizes. Set this in your ".env" file.
+>>>>>>> de3204931ee641f075c073efa746b59452c65031
     |
     */
 
@@ -54,8 +58,11 @@ return [
 
     'url' => env('APP_URL', 'http://localhost'),
 
+<<<<<<< HEAD
+=======
     'asset_url' => env('ASSET_URL', null),
 
+>>>>>>> de3204931ee641f075c073efa746b59452c65031
     /*
     |--------------------------------------------------------------------------
     | Application Timezone
@@ -97,6 +104,8 @@ return [
 
     /*
     |--------------------------------------------------------------------------
+<<<<<<< HEAD
+=======
     | Faker Locale
     |--------------------------------------------------------------------------
     |
@@ -110,6 +119,7 @@ return [
 
     /*
     |--------------------------------------------------------------------------
+>>>>>>> de3204931ee641f075c073efa746b59452c65031
     | Encryption Key
     |--------------------------------------------------------------------------
     |

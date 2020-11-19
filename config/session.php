@@ -1,7 +1,10 @@
 <?php
 
+<<<<<<< HEAD
+=======
 use Illuminate\Support\Str;
 
+>>>>>>> de3204931ee641f075c073efa746b59452c65031
 return [
 
     /*
@@ -72,7 +75,11 @@ return [
     |
     */
 
+<<<<<<< HEAD
+    'connection' => null,
+=======
     'connection' => env('SESSION_CONNECTION', null),
+>>>>>>> de3204931ee641f075c073efa746b59452c65031
 
     /*
     |--------------------------------------------------------------------------
@@ -98,7 +105,11 @@ return [
     |
     */
 
+<<<<<<< HEAD
+    'store' => null,
+=======
     'store' => env('SESSION_STORE', null),
+>>>>>>> de3204931ee641f075c073efa746b59452c65031
 
     /*
     |--------------------------------------------------------------------------
@@ -126,7 +137,11 @@ return [
 
     'cookie' => env(
         'SESSION_COOKIE',
+<<<<<<< HEAD
+        str_slug(env('APP_NAME', 'laravel'), '_').'_session'
+=======
         Str::slug(env('APP_NAME', 'laravel'), '_').'_session'
+>>>>>>> de3204931ee641f075c073efa746b59452c65031
     ),
 
     /*
